@@ -33,4 +33,4 @@ ADD update-mms-settings.sh /root/update-mms-settings.sh
 # Mongo runs on 27000
 EXPOSE 27000/tcp
 
-CMD ["/bin/sh" "-c" "/root/update-mms-settings.sh"]
+CMD /root/update-mms-settings.sh
