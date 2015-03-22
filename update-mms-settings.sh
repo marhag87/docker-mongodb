@@ -11,7 +11,4 @@ sed -i -e "s/^mmsApiKey.*$/mmsApiKey=${mmsApiKey}/" /etc/mongodb-mms/monitoring-
 service mongodb-mms-automation-agent start
 service mongodb-mms-monitoring-agent start
 
-# Supress startup message
-echo "never" > /sys/kernel/mm/transparent_hugepage/defrag
-
 exec /bin/bash
