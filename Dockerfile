@@ -1,8 +1,8 @@
 # MongoDB (MMS) server
 #
-# VERSION 0.0.1
+# VERSION 0.1.0
 
-FROM fedora:rawhide
+FROM fedora:21
 MAINTAINER Martin Hagstrom <martin@mrhg.se>
 
 # MMS component versions
