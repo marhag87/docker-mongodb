@@ -1,12 +1,9 @@
-docker-meteor
-=============
+docker-mongodb
+==============
 
-Docker container with Meteor
+Docker container with MongoDB (MMS)
 
 
 Some ways to run:
 
-# DB data in container
-sudo docker run --rm=true -t -i -p 8080:3000/tcp meteor
-# DB data and code on host
-sudo docker run --rm=true -t -i -p 8080:3000/tcp -v ~/git/dnd/:/mnt meteor
+sudo docker run --rm=true -t -i -p 27000:27000/tpc mongodb
